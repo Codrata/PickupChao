@@ -104,7 +104,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     IconButton(
-                      icon: Icon(Icons.arrow_back_ios),
+                      icon: Icon(Icons.arrow_back),
                       color: Colors.white,
                       iconSize: 30.0,
                       onPressed: () => Navigator.pop(context),

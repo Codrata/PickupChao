@@ -5,6 +5,8 @@ import 'package:restaurant_app/models/restaurant.dart';
 import 'package:restaurant_app/widgets/rating_stars.dart';
 import 'package:restaurant_app/widgets/recent_orders.dart';
 
+import 'cart_screen.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -16,7 +18,12 @@ class _HomeScreenState extends State<HomeScreen> {
     restaurants.forEach((Restaurant restaurant) {
       restaurantList.add(
         GestureDetector(
-          onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => RestaurantScreen(restaurant: restaurant),)),
+          onTap: () =>
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => RestaurantScreen(restaurant: restaurant),
+                  )),
           child: Container(
             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
             decoration: BoxDecoration(
@@ -55,7 +62,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       SizedBox(
                         height: 4.0,
                       ),
-
                       Text(
                         restaurant.address,
                         style: TextStyle(
@@ -100,7 +106,13 @@ class _HomeScreenState extends State<HomeScreen> {
               'Cart(${currentUser.cart.length})',
               style: TextStyle(color: Colors.white, fontSize: 20.0),
             ),
-            onPressed: () {},
+            onPressed: () =>
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => CartScreen(),
+                  ),
+                ),
           )
         ],
       ),
