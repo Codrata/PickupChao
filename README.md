@@ -1,18 +1,5 @@
-# restaurant_app
+# PickupChao
 
 A restaurant and food delivery app
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# restaurant_app" 
-"# restaurant_app" 
+<img src="https://user-images.githubusercontent.com/41749787/83888138-593b6900-a741-11ea-8570-ed37ae98fb1f.png" width="300" height="550" /> <img src="https://user-images.githubusercontent.com/41749787/83888151-5c365980-a741-11ea-852a-49f8100f09e7.png" width="300" height="550" /> <img src="https://user-images.githubusercontent.com/41749787/83888158-5f314a00-a741-11ea-8df0-35b3c19926b8.png" width="300" height="550" />
